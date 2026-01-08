@@ -5,7 +5,9 @@ from .database import SessionLocal, engine
 from . import models, crud, schemas
 from .api import fetch_user_repos
 
-models.Base.metadata.create_all(bind=engine)
+if __name__ == "__main__":
+    models.Base.metadata.create_all(bind=engine)
+
 
 app = FastAPI(title="GitHub Tracker API")
 
