@@ -143,6 +143,7 @@ venv\Scripts\activate
 
 ```bash
 pip install fastapi uvicorn sqlalchemy psycopg2-binary pytest httpx python-dotenv
+python.exe -m pip install --upgrade pip
 
 ```
 
@@ -182,6 +183,7 @@ uvicorn app.main:app --reload
 ```
 http://127.0.0.1:8000/docs
 ```
+<img width="1685" height="713" alt="image" src="https://github.com/user-attachments/assets/ab373c37-4e28-4746-ba49-5cc3ce927b7f" />
 
 ---
 
