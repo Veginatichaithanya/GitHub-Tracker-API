@@ -209,8 +209,13 @@ POST `/repos/from-github`
 GET `/repos`
 
 ```
-<img width="1618" height="545" alt="image" src="https://github.com/user-attachments/assets/e2eec37f-e96d-4d02-a0bf-7fcfffce74f0" />
 <img width="1660" height="668" alt="image" src="https://github.com/user-attachments/assets/f87cb5e9-5039-4093-b04e-1e73d370e5fe" />
+
+---
+
+```
+<img width="1618" height="545" alt="image" src="https://github.com/user-attachments/assets/e2eec37f-e96d-4d02-a0bf-7fcfffce74f0" />
+
 
 ---
 
