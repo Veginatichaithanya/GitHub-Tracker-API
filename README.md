@@ -197,12 +197,12 @@ POST `/repos/from-github`
 { "username": "torvalds" }
 ```
 
----
-
 ```
-<img width="1522" height="810" alt="image" src="https://github.com/user-attachments/assets/03374d24-79d6-49d4-b72b-10a250f85b1f" />
+```
+<img width="1686" height="822" alt="image" src="https://github.com/user-attachments/assets/fffd6a5d-691a-4640-87e1-5dc5afb25b9b" />
 
 ---
+
 ```
 <img width="1686" height="822" alt="image" src="https://github.com/user-attachments/assets/fffd6a5d-691a-4640-87e1-5dc5afb25b9b" />
 
