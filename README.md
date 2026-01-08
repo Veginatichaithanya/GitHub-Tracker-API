@@ -210,6 +210,7 @@ POST `/repos/from-github`
 GET `/repos`
 
 <img width="1618" height="545" alt="image" src="https://github.com/user-attachments/assets/e2eec37f-e96d-4d02-a0bf-7fcfffce74f0" />
+<br><br><br>
 
 <img width="1660" height="668" alt="image" src="https://github.com/user-attachments/assets/f87cb5e9-5039-4093-b04e-1e73d370e5fe" />
 
@@ -219,10 +220,22 @@ GET `/repos`
 ### Get One Repo
 GET `/repos/{repo_id}`
 
+<img width="1701" height="689" alt="image" src="https://github.com/user-attachments/assets/64e8be26-0ecd-4684-adea-e405a208ab0d" />
+<br><br><br>
+
+<img width="1647" height="909" alt="image" src="https://github.com/user-attachments/assets/6f0d3deb-b755-42a3-865e-91e94ab8880f" />
+
+
 ---
 
 ### Update Repo Note
 PUT `/repos/{repo_id}`
+
+<img width="1672" height="834" alt="image" src="https://github.com/user-attachments/assets/a7845071-1d3c-4c51-963b-69c107dcb8b0" />
+<br><br><br>
+<img width="1702" height="861" alt="image" src="https://github.com/user-attachments/assets/a39bb11a-bc0b-4b70-8fab-a88a7c10960b" />
+
+
 
 ```json
 { "note": "Important project" }
@@ -232,10 +245,19 @@ PUT `/repos/{repo_id}`
 
 ### Delete Repo
 DELETE `/repos/{repo_id}`
+<img width="1675" height="895" alt="image" src="https://github.com/user-attachments/assets/8cf9c521-4520-4230-b39e-c1208640fe9e" />
+<br><br><br>
+<img width="1671" height="871" alt="image" src="https://github.com/user-attachments/assets/23e9f65f-6d0f-4661-b2ee-9ef40468d269" />
+
+
 
 ---
 
 # 🧪 Run Tests
+
+<img width="1852" height="382" alt="image" src="https://github.com/user-attachments/assets/a09586e2-cceb-4273-a266-e571d4be89ab" />
+
+
 
 ```bash
 pytest
@@ -244,11 +266,16 @@ pytest
 ---
 
 # 🗄️ View Database Data
+<img width="1141" height="454" alt="image" src="https://github.com/user-attachments/assets/53769262-a975-414c-b6be-74bb19dca214" />
+
 
 ```bash
 psql -U postgres -d github_tracker
 SELECT * FROM repositories;
 \q
+
+
+
 ```
 
 ---
